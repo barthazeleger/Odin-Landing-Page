@@ -4,17 +4,19 @@
 
 .hero-main {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 700;
   color: #f9faf8;
 }
 
 .hero-secondary {
   font-size: 18px;
+  opacity: 0.9;
   color: #e5e7eb;
 }
 
 .header-logo-text {
   font-size: 24px;
+  font-weight: 700;
   color: #f9faf8;
 }
 
@@ -49,6 +51,13 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .button-cta {
   background-color: #3882f6;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px 40px;
+  text-shadow: none;
+  font-size: 18px;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
@@ -88,7 +97,6 @@ header {
   padding: 1rem 0;
   background: #1f2937;
   display: flex;
-  height: 400px;
   justify-content: space-between;
 }
 header .logo span {
@@ -97,6 +105,7 @@ header .logo span {
 }
 header .flex-container {
   flex-direction: column;
+  height: 100%;
 }
 header .flex-container .header-container {
   display: flex;
@@ -109,13 +118,34 @@ header .flex-container .header-container nav ul {
   gap: 16px;
 }
 header .flex-container .header-container nav ul li a {
-  color: white;
   text-decoration: none;
 }
 header .flex-container .hero-section {
   display: flex;
+  padding: 100px 0;
+  position: relative;
   flex: 1;
   align-items: center;
+}
+header .flex-container .hero-section .left-hero {
+  flex: 1;
+  width: 100%;
+  max-width: 450px;
+  margin-right: 100px;
+}
+header .flex-container .hero-section .left-hero p {
+  margin-bottom: 25px;
+}
+header .flex-container .hero-section .right-hero {
+  flex: 1;
+}
+
+.random-info {
+  margin: 50px 0;
+}
+.random-info h2 {
+  text-align: center;
+  font-weight: 900;
 }
 
 .quote-section {

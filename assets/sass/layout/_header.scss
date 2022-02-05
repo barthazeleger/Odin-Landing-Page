@@ -1,41 +1,54 @@
-@import "../sass-utils/variables";
+@import '../sass-utils/variables';
 
 header {
-    padding: 1rem 0;
-    background: $dark-bg;
-    display:flex;
-    height:400px;
-    justify-content: space-between;
-    .logo {
-        span {
-            color: white;
-            font-size: 24px;
-        }
+  padding: 1rem 0;
+  background: $dark-bg;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    span {
+      color: white;
+      font-size: 24px;
     }
-    .flex-container {
-        flex-direction:column;
-        .header-container {
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            padding-bottom:1rem;
-            nav {
-                ul {
-                    display:flex;
-                    gap:16px;
-                    li {
-                        a {
-                            color:white;
-                            text-decoration:none;
-                        }
-                    }
-                }
-            } 
+  }
+  .flex-container {
+    flex-direction: column;
+    height: 100%;
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1rem;
+      nav {
+        ul {
+          display: flex;
+          gap: 16px;
+          li {
+            a {
+              text-decoration: none;
+            }
+          }
         }
-        .hero-section {
-            display:flex;
-            flex:1;
-            align-items:center;
-        }
+      }
     }
+    .hero-section {
+      display: flex;
+      padding: 100px 0;
+      position: relative;
+      flex: 1;
+      align-items: center;
+      .left-hero {
+        flex: 1;
+        width: 100%;
+        max-width: 450px;
+        margin-right: 100px;
+        p {
+          margin-bottom: 25px;
+        }
+      }
+      .right-hero {
+        flex: 1;
+      }
+    }
+  }
 }
