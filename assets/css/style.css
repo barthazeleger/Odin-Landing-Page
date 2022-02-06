@@ -172,6 +172,44 @@ header .flex-container .hero-section .right-hero {
   color: #1f2937;
 }
 
+.cta {
+  margin: 50px 0;
+}
+.cta .cta-block {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+.cta .cta-block p {
+  font-size: 24px;
+  color: white;
+}
+.cta .cta-block p span {
+  opacity: 0.8;
+  font-size: 20px;
+}
+.cta .cta-block a.button-cta {
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  align-self: center;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+}
+footer p {
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
 /* Colors */
 
 /*# sourceMappingURL=style.css.map */

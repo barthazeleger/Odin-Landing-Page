@@ -1,0 +1,25 @@
+.cta {
+  margin: 50px 0;
+  .cta-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: $blue;
+    padding: 50px 100px;
+    border-radius: 10px;
+    p {
+      font-size: 24px;
+      color: white;
+      span {
+        opacity: 0.8;
+        font-size: 20px;
+      }
+    }
+    a.button-cta {
+      border: 2px solid white;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      align-self: center;
+    }
+  }
+}

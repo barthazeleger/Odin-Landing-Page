@@ -1,12 +1,14 @@
-@import "base/typography";
-@import "base/reset";
+@import 'base/typography';
+@import 'base/reset';
 
-@import "components/buttons";
-@import "components/cover";
+@import 'components/buttons';
+@import 'components/cover';
 
-@import "layout/grid";
-@import "layout/header";
-@import "layout/randomInfo";
-@import "layout/quote";
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/randomInfo';
+@import 'layout/quote';
+@import 'layout/cta';
+@import 'layout/footer';
 
-@import "sass-utils/variables";
+@import 'sass-utils/variables';
